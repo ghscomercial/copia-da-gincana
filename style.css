@@ -1,0 +1,160 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 10;
+    padding: 10;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+header h1 {
+    font-size: 24px;
+    color: #ff4d4f;
+}
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: #333;
+    font-size: 16px;
+}
+nav button {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+.hero h2 {
+    font-size: 32px;
+}
+.hero span {
+    color: #ff4d4f;
+}
+.hero p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-imagem img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+.recursos {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+.recurso {
+    text-align: center;
+}
+.recurso h3 {
+    font-size: 20px;
+    color: #ff4d4f;
+}
+.recurso p {
+    font-size: 14px;
+}
+.cardapio {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+.cardapio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.item-cardapio {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.item-cardapio img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+.item-cardapio h3 {
+    font-size: 20px;
+    color: #ff4d4f;
+    margin: 10px 0;
+}
+.item-cardapio p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.item-cardapio button {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.depoimentos {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.depoimentos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.depoimentos p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.baixar-app {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+.baixar-app h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.baixar-app button {
+    padding: 10px 20px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+footer p {
+    font-size: 14px;
+    color: #666;
+}
